@@ -40,8 +40,8 @@ PCF8574 pcf(0x20);
 #define IS_DISCONNECTED WiFi.status() != WL_CONNECTED
 #define S_ESP 0  // Source_ESP for led class
 #define S_PCF 1  // Source_PCF for led class
-const char *ssid = "Zackova15";
-const char *password = "Zackova1391";
+const char *ssid = "REPLACE_YOUR_SSID";
+const char *password = "REPLACE_YOUR_PASSWORD";
 int16_t minuteOffset = 0;
 typedef void (*functionPointer)();
 
