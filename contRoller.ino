@@ -124,6 +124,17 @@ public:
 private:
   functionPointer onTouchActionPointer = nullptr;  // globální uložení ve třídě
 };
+
+void myDisplay(String s, uint8_t t = 1, bool n = false) {  // string, text size, bool if requires to clear display
+  if (n) {
+    display.clearDisplay();
+    display.setCursor(0, 0);
+  }
+  display.setTextSize(t);
+  st.comment(s);  // optional
+  display.println(s);
+}
+
 void touch2Action();  // declaration of actions
 void touch3Action();
 void touch4Action();
@@ -176,15 +187,7 @@ void touch6Action() {
   touch6.waitForRelease();
 }
 
-void myDisplay(String s, uint8_t t = 1, bool n = false) {  // string, text size, bool if requires to clear display
-  if (n) {
-    display.clearDisplay();
-    display.setCursor(0, 0);
-  }
-  display.setTextSize(t);
-  st.comment(s);  // optional
-  display.println(s);
-}
+
 int combineHoursMinutes(uint8_t hours, uint8_t minutes) {  //combining hours and minutes into just minutes
   return hours * 60 + minutes;
 }
