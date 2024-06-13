@@ -176,10 +176,11 @@ void touch5Action() {
   showURL.start();
   touch5.waitForRelease();
   if (showURL.read() >= 6000) {
+			while(st.doForMS(6000){
     myDisplay(F("github.com/TechN3o"), 1, true);
     myDisplay(F("/contRoller"), 1);
     display.display();
-    delay(6000);
+   } 
   } else showURL.stop();
 }
 void touch6Action() {
