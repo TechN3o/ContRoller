@@ -1,11 +1,7 @@
-note that this is readme from repository Onboard by hackclub where I also uploaded this: https://github.com/TechN3o/OnBoard/tree/main/projects%2FDesk%20contRoller
-<br>
----
-name: "Štěpán Otruba (Stepan Otruba)"
-slack_handle: "@Štěpán Otruba"
-github_handle: "@TechN3o"
-tutorial: "https://youtu.be/utBQqcuOt9U?si=lmBRnGBFkrFfYdLz "
----
+> NOTE that this readme/request is from my [repository](https://github.com/TechN3o/OnBoard/tree/main/projects%2FDesk%20contRoller) for Onboard program by hackclub where I also uploaded this
+> [the tutorial ](https://youtu.be/utBQqcuOt9U?si=lmBRnGBFkrFfYdLz)
+
+
 
 # About Desk contRoller
 
@@ -79,14 +75,14 @@ But it had a lot of problems:
 <br>
 ..As you could expect, v1 didnt work.
 <br>
-Ended up with a chasi, without the glass and practicaly nothing working
+Ended up with a chasi, without the glass and practicaly nothing working.
 <br>
 
-<img src="v1look.png" width="350">
-<img src="v1look2.jpg" width="350">
-<img src="v1look3.jpg" width="350">
-<img src="v1look4.jpg" width="350">
-
+<img src="v1look.png" style="padding:0px;" width="350" align="right">
+<img src="v1look2.jpg" style="padding:0px;" width="350" align="left">
+<img src="v1look3.jpg" style="padding:0px;" width="350" align="left">
+<img src="v1look4.jpg" width="350" style="padding:0px;" align="right">
+<br>
     
 Then I was broken, desperately just scrolling through the ig and thinking, what about making it as a
 PCB board either on a cnc mill or ordered, when this interesting OnBoard program popped up and
