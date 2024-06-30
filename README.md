@@ -105,7 +105,7 @@ In EasyEDA, with a little tutorial, I have redesigned the schematic and pcb, add
 results :D
 </p>
 
-# The version 2.1
+# The version v2.1
 For now, just photos
 <table>
   <tr>
