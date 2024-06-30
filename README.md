@@ -85,12 +85,12 @@ Ended up with a chasi, without the glass and practicaly nothing working.
 
 <table>
   <tr>
-    <td width="50%"><img src="v1look.png" alt="Obrázek 1"  width="50%"></td>
-    <td width="50%"><img src="v1look2.jpg" alt="Obrázek 2" width="50%"></td>
+    <td width="50%"><img src="v1look.png" alt="Obrázek 1"  width="100%"></td>
+    <td width="50%"><img src="v1look2.jpg" alt="Obrázek 2" width="100%"></td>
   </tr>
   <tr>
-    <td width="50%"><img src="v1look3.jpg" alt="Obrázek 3" width="50%"></td>
-    <td width="50%"><img src="v1look4.jpg" alt="Obrázek 4" width="50%"></td>
+    <td width="50%"><img src="v1look3.jpg" alt="Obrázek 3" width="100%"></td>
+    <td width="50%"><img src="v1look4.jpg" alt="Obrázek 4" width="100%"></td>
   </tr>
 </table>
 
