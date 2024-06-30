@@ -6,7 +6,7 @@
 
 
 
-# About Desk contRoller (part 1 - planning)
+# About Desk contRoller 
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 It's a device, placed in the teacher's desk, which combines and fulfills the purpose of 2 IR controllers for the projector and the projection screen in our classroom (we are a new specialization at school - IT, in which we use the projector all the time).
