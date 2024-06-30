@@ -15,7 +15,7 @@ $$/      $$/ $$/ $$/   $$/  $$$$$$/  $$/   $$/ $$/   $$/  $$$$$$$ |
 
 */
 #include <Arduino.h>
-#include <Wire.h>  // ahoj 11
+#include <Wire.h>  
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <SmallTools.h>  //SmallTools is my own library, that im rn developing
@@ -217,7 +217,7 @@ String returnTimeString() {
 // 7:05 - 7:50 - 8:00 - 8:45 - 8:50 - 9:35 - 9:45 - 10:30 - 10:45 - 11:30 - 11:35 - 12:20 - 12:30 - 13:15 - 13:20 - 14:05 - 14:10 - 14:55 - 15:00 - 15:45 - 15:50 - 16:35
 const int timeTable[] = {
   // chat gpt here 🙏          aaand of course, it could have been done simply by the fact that these times are separated by 45 minute interval and breaks are 5, 10, 15 and again minutes, but [REPLACE_YOUR_EXCUSE]
-  combineHoursMinutes(7, 5),  // 425
+  combineHoursMinutes(7, 5),  // 425 minutes
   combineHoursMinutes(7, 50),
   combineHoursMinutes(8, 0),
   combineHoursMinutes(8, 45),
@@ -241,7 +241,7 @@ const int timeTable[] = {
   combineHoursMinutes(16, 35)  //995
 };
 Timer leftTimer;
-int minutesLeft(bool f = false) {  // f: forced to calculate
+int minutesLeft(bool f = false) {  // f: forced to calculate - this was intended to increase task performance, but that was solved by different solution, so this might not be needed anymore
   static int output = 0;
   uint16_t cTime = combineHoursMinutes(TC.getHours(), TC.getMinutes()) + minuteOffset;  // currentTime to compare
 
@@ -269,7 +269,7 @@ int minutesLeft(bool f = false) {  // f: forced to calculate
   }
   // If current time is after the last time in the table, return 0 or some other value
 }
-// bitmaps generated at: https://javl.github.io/image2cpp/
+// bitmaps generated at: https://javl.github.io/image2cpp/ 
 
 // 'wifi_0', 15x14px
 const unsigned char epd_bitmap_wifi_0[] PROGMEM = {
@@ -318,7 +318,7 @@ void ifDisconnected(bool d = false) {
         myDisplay(F("Pripojovani..."), 1, true);
         myDisplay("- ssid: " + String(ssid), 1);
         myDisplay("- heslo: " + st.returnNchars('*', strlen(password) - 1) + password[strlen(password) - 1], 1);
-        myDisplay(F("+ Minonky..."), 1);
+        myDisplay(F("+ Minonky..."), 1); // our teacher loves miňonky
         display.display();
       }
       vTaskDelay(1000 / portTICK_PERIOD_MS);
@@ -330,7 +330,7 @@ void ifDisconnected(bool d = false) {
       display.display();
       TC.end();
       vTaskDelay(3000 / portTICK_PERIOD_MS);
-      TC.begin();  // start NTP klienta
+      TC.begin();  // start NTP client
     }
   } else st.println("WiFi strenght (RSSI): " + String(WiFi.RSSI()) + " dBm");  // connection strenght // the lower number, the better connection/strenght
 }
@@ -438,7 +438,7 @@ void TaskDisplay(void *pvParameters) {
     // st.println("-- display display");
   }
 }
-void TaskTouch(void *pvParameters) {
+void TaskTouch(void *pvParameters) { // checking touch sensors and executing actions
   for (;;) {
     vTaskDelay(100 / portTICK_PERIOD_MS);
     touch2.executeOnTouchAction();
