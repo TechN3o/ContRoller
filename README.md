@@ -86,12 +86,12 @@ Ended up with a chasi, without the glass and practicaly nothing working.
 
 <table>
   <tr>
-    <td width="50%"><img src="v1look.png" alt="Obrázek 1"  width="100%"></td>
-    <td width="50%"><img src="v1look2.jpg" alt="Obrázek 2" width="100%"></td>
+    <td width="50%"><img src="photos/v1look.png" alt="Obrázek 1"  width="100%"></td>
+    <td width="50%"><img src="photos/v1look2.jpg" alt="Obrázek 2" width="100%"></td>
   </tr>
   <tr>
-    <td width="50%"><img src="v1look3.jpg" alt="Obrázek 3" width="100%"></td>
-    <td width="50%"><img src="v1look4.jpg" alt="Obrázek 4" width="100%"></td>
+    <td width="50%"><img src="photos/v1look3.jpg" alt="Obrázek 3" width="100%"></td>
+    <td width="50%"><img src="photos/v1look4.jpg" alt="Obrázek 4" width="100%"></td>
   </tr>
 </table>
 
@@ -109,19 +109,19 @@ results :D
 For now, just photos
 <table>
   <tr>
-    <td  width="50%"><img src="IMG_20240604_215652.jpg" width="100%"></td>
-    <td  width="50%"><img src="ContRoller2.1_2024-Jun-30_10-08-46AM-000_CustomizedView2113466326.png" width="100%"></td>
+    <td  width="50%"><img src="photos/IMG_20240604_215652.jpg" width="100%"></td>
+    <td  width="50%"><img src="photos/ContRoller2.1_2024-Jun-30_10-08-46AM-000_CustomizedView2113466326.png" width="100%"></td>
   </tr>
    <tr>
-    <td  width="50%"><img src="IMG_20240605_075407.jpg" width="100%"></td>
-    <td  width="50%"><img src="IMG_20240628_191524.jpg" width="100%"></td>
+    <td  width="50%"><img src="photos/IMG_20240605_075407.jpg" width="100%"></td>
+    <td  width="50%"><img src="photos/IMG_20240628_191524.jpg" width="100%"></td>
   </tr>
    <tr>
-    <td  width="50%"><img src="IMG_20240628_191534.jpg" width="100%"></td>
-    <td  width="50%"><img src="IMG_20240628_191600.jpg" width="100%"></td>
+    <td  width="50%"><img src="photos/IMG_20240628_191534.jpg" width="100%"></td>
+    <td  width="50%"><img src="photos/IMG_20240628_191600.jpg" width="100%"></td>
   </tr>
    <tr>
-    <td  width="50%"><img src="IMG_20240628_191627.jpg" width="100%"></td>
+    <td  width="50%"><img src="photos/IMG_20240628_191627.jpg" width="100%"></td>
   </tr>
   
 
