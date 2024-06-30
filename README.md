@@ -82,13 +82,20 @@ But it had a lot of problems:
 <br>
 Ended up with a chasi, without the glass and practicaly nothing working.
 <br>
-<img src="v1look.png" alt="how my v1 looked" width="350"  align="left">
-<img src="v1look2.jpg" alt="how my v1 looked" width="350" align="right">
-<img src="v1look3.jpg" alt="how my v1 looked" width="350" align="right">
-<img src="v1look4.jpg" alt="how my v1 looked" width="350" align="left">
+
+<table>
+  <tr>
+    <td width="50%"><img src="v1look.png" alt="Obrázek 1"  width="50%"></td>
+    <td width="50%"><img src="v1look2.jpg" alt="Obrázek 2" width="50%"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="v1look3.jpg" alt="Obrázek 3" width="50%"></td>
+    <td width="50%"><img src="v1look4.jpg" alt="Obrázek 4" width="50%"></td>
+  </tr>
+</table>
 
     
-<p style="color: red">Then I was broken, desperately just scrolling through the ig and thinking, what about making it as a
+<p>Then I was broken, desperately just scrolling through the ig and thinking, what about making it as a
 PCB board either on a cnc mill or ordered, when this interesting OnBoard program popped up and
 kicked me into doing something. 
 <br>
@@ -96,14 +103,6 @@ kicked me into doing something.
 In EasyEDA, with a little tutorial, I have redesigned the schematic and pcb, added a few components... now I hope for a good
 results :D
 </p>
-
-# How it ended up
-
-
-
-
-
-
 
 
 
