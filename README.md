@@ -105,5 +105,27 @@ In EasyEDA, with a little tutorial, I have redesigned the schematic and pcb, add
 results :D
 </p>
 
+# The version 2.1
+For now, just photos
+<table>
+  <tr>
+    <td  width="50%"><img src="IMG_20240604_215652.jpg" width="100%"></td>
+    <td  width="50%"><img src="ContRoller2.1_2024-Jun-30_10-08-46AM-000_CustomizedView2113466326.png" width="100%"></td>
+  </tr>
+   <tr>
+    <td  width="50%"><img src="IMG_20240605_075407.jpg" width="100%"></td>
+    <td  width="50%"><img src="IMG_20240628_191524.jpg" width="100%"></td>
+  </tr>
+   <tr>
+    <td  width="50%"><img src="IMG_20240628_191534.jpg" width="100%"></td>
+    <td  width="50%"><img src="IMG_20240628_191600.jpg" width="100%"></td>
+  </tr>
+   <tr>
+    <td  width="50%"><img src="IMG_20240628_191627.jpg" width="100%"></td>
+  </tr>
+  
+
+  
+</table>
 
 
